@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   res.send(`💯 yaaay! it works! - ${SERVICE}`);
 });
 
-app.listen(3000, "localhost", () => {
-  console.log("Listening on 3000");
+app.listen(8080, "localhost", () => {
+  console.log("Listening on 8080");
 });
