@@ -3,7 +3,7 @@ const app = new express();
 
 app.get("/", (req, res) => {
   const SERVICE = process.env.SERVICE; // here to demo env variables
-  res.send({ message: `💯 yaaay! it works! - ${SERVICE}` });
+  res.send({ message: `💯 yaaay! it works (content updated)! - ${SERVICE}` });
 });
 
 app.listen(3000, () => {
