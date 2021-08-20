@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   res.send({ message: `💯 yaaay! it works! - ${SERVICE}` });
 });
 
-app.listen(80, "localhost", () => {
-  console.log("Listening on 80");
+app.listen(3000, () => {
+  console.log("Listening on 3000");
 });
